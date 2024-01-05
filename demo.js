@@ -12,4 +12,18 @@ console.log(a);
 console.log(b);
 console.log(c);
 
-a=([1,2,3,4,5])
+a=(1);
+
+console.log(typeof "a");
+console.log(a);
+
+console.log(a==3);
+console.log(a!=3);
+console.log(a>=3);
+console.log(a<=3);
+console.log(a>=3 || a==5 || b>a);
+
+
+
+
+
