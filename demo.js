@@ -16,11 +16,11 @@ a=(1);
 
 console.log(typeof "a");
 console.log(a);
-
+console.clear();
 console.log(a==3);
 console.log(a!=3);
 console.log(a>=3);
-console.log(a<=3);
+
 console.log(a>=3 || a==5 || b>a);
 
 
