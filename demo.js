@@ -23,7 +23,11 @@ console.log(a>=3);
 
 console.log(a>=3 || a==5 || b>a);
 
+var o=a=="abbu"?"a has value" : "a does'nt have value";
+console.log(o);
 
-
-
-
+//mark
+m=100;
+var score=(m>=90 && m<=100)? "Distinction" : (m>=70 && m<=89)? 
+"Grade a" : (m>50 && m<=69)?"grade b": (m>35 && m<=49)?"grade c" : "fail"
+console.log(score);
