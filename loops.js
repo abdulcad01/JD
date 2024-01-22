@@ -5,26 +5,26 @@ function condition()
     console.log(Customer);
     //while loop
 
-/*while(Customer<20)
+while(Customer<20)
 {
  console.log(Customer + " smaller than 20" )
 Customer++;
-}*/
+}
 
 //do while
 
-/*do{
+do{
     console.log(Customer + " smaller than 20" )
     Customer++;
 }
     while(Customer<20)
-*/
+
 
 // for loop
-/*for(Customer;Customer<50;Customer++)
+for(Customer;Customer<50;Customer++)
 {
 console.log( Customer +" is smaller than 50 " );
-}*/
+}
 
 
 }
