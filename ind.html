@@ -6,8 +6,47 @@
     </head>
 <body>
     <p align = "center">Abbu</p>
-    <script src="demo.js">
-      
+
+    <h1> Arithmetic Operators</h1>
+    <input type = "text" id = "val1" name = "val1" value =""><br><br><br>
+    <input type = "text" id = "val2" name = "val2" value = ""><br>
+    <input type = "submit" value = "add" name = "add" onclick ="ao('+')" >
+    <input type = "submit" value = "sub" name = "sub" onclick = "ao('-')"><br><br>
+    <input type = "submit" value = "multiply" name = "multiply" onclick = "ao('*')">
+    <input type = "submit" value = "division" name = "division" onclick = "ao('/')"><br><br>
+
+    <p id = "arith"> Output :</p>
+
+    <script>
+
+        function ao(a)
+        {
+
+        var value1 = docment.getElementById("val1").value;
+        var value2 = document.getElementById("val2").value;
+        value1 = Number(value1);
+        value2 = Number(value2);
+            switch(a)
+            {
+                case '+':
+                    document.getElementById("arith").innerHTML =  value1+ value2;  
+            break;
+            case '-' :
+                document.getElementById("arith").innerHTML = value1 - value2;
+                break;
+                
+                case '/' :
+                document.getElementById("arith").innerHTML = value1 / value2;
+                break;
+
+                case '*' :
+                document.getElementById("arith").innerHTML = value1 * value2;
+                break;
+                }
+        }
     </script>
+
+            
+
 </body>
 </html>

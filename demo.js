@@ -116,14 +116,25 @@ function switchcase(m)
 switchcase(10);
 console.clear();
 //prompt
-function prom(peyar)
+
+function prom()
 {
-    var names = prompt("Enter first number:");
-    
-
-
-
-
-    console.log( "You gonna have" + names);
-
+    var namee = ("Enter your name");
+    console.log( "You gonna have a great day" +" " + namee);
+}
 prom();
+console.clear();
+ function math()
+ {
+    var one = prompt("Enter the first value");
+    var two = prompt("Enter the second value");
+
+    var sum = one + two;
+    var sub = one - two;
+    var multiply = one * two;
+    var div = one / two;
+
+
+    console.log( "sum" +" " + "=" + " " + sum);
+ }
+ math();
